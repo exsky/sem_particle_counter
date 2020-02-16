@@ -1,8 +1,8 @@
 import cv2
 
-# 從 image 目錄讀取彩色圖檔 gray_1.jpg
-# cv2.imread 的第二個參數帶 0 時，會將獨進來的圖片轉換成灰階
-# 將轉為灰階的圖片物件，派到變數 gray1
+# 從 image 目錄讀取彩色圖檔 ori_1.jpg
+# cv2.imread 的第二個參數帶 0 時，會將圖片轉換成灰階
+# 然後派到變數 gray1
 gray1 = cv2.imread("image/ori_1.jpg", 0)
 
 # 將 gray1 變數(圖片物件) 寫到檔案
